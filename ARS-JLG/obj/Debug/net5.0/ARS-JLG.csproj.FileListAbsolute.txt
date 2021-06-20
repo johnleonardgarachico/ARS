@@ -1,0 +1,16 @@
+C:\Users\jgarachico\Desktop\Chico\01_Learning\C#-Training\00_Project\ARS-JLG\ARS-JLG\bin\Debug\net5.0\ARS-JLG.exe
+C:\Users\jgarachico\Desktop\Chico\01_Learning\C#-Training\00_Project\ARS-JLG\ARS-JLG\bin\Debug\net5.0\ARS-JLG.deps.json
+C:\Users\jgarachico\Desktop\Chico\01_Learning\C#-Training\00_Project\ARS-JLG\ARS-JLG\bin\Debug\net5.0\ARS-JLG.runtimeconfig.json
+C:\Users\jgarachico\Desktop\Chico\01_Learning\C#-Training\00_Project\ARS-JLG\ARS-JLG\bin\Debug\net5.0\ARS-JLG.runtimeconfig.dev.json
+C:\Users\jgarachico\Desktop\Chico\01_Learning\C#-Training\00_Project\ARS-JLG\ARS-JLG\bin\Debug\net5.0\ARS-JLG.dll
+C:\Users\jgarachico\Desktop\Chico\01_Learning\C#-Training\00_Project\ARS-JLG\ARS-JLG\bin\Debug\net5.0\ref\ARS-JLG.dll
+C:\Users\jgarachico\Desktop\Chico\01_Learning\C#-Training\00_Project\ARS-JLG\ARS-JLG\bin\Debug\net5.0\ARS-JLG.pdb
+C:\Users\jgarachico\Desktop\Chico\01_Learning\C#-Training\00_Project\ARS-JLG\ARS-JLG\obj\Debug\net5.0\ARS-JLG.csproj.AssemblyReference.cache
+C:\Users\jgarachico\Desktop\Chico\01_Learning\C#-Training\00_Project\ARS-JLG\ARS-JLG\obj\Debug\net5.0\ARS-JLG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jgarachico\Desktop\Chico\01_Learning\C#-Training\00_Project\ARS-JLG\ARS-JLG\obj\Debug\net5.0\ARS-JLG.AssemblyInfoInputs.cache
+C:\Users\jgarachico\Desktop\Chico\01_Learning\C#-Training\00_Project\ARS-JLG\ARS-JLG\obj\Debug\net5.0\ARS-JLG.AssemblyInfo.cs
+C:\Users\jgarachico\Desktop\Chico\01_Learning\C#-Training\00_Project\ARS-JLG\ARS-JLG\obj\Debug\net5.0\ARS-JLG.csproj.CoreCompileInputs.cache
+C:\Users\jgarachico\Desktop\Chico\01_Learning\C#-Training\00_Project\ARS-JLG\ARS-JLG\obj\Debug\net5.0\ARS-JLG.dll
+C:\Users\jgarachico\Desktop\Chico\01_Learning\C#-Training\00_Project\ARS-JLG\ARS-JLG\obj\Debug\net5.0\ref\ARS-JLG.dll
+C:\Users\jgarachico\Desktop\Chico\01_Learning\C#-Training\00_Project\ARS-JLG\ARS-JLG\obj\Debug\net5.0\ARS-JLG.pdb
+C:\Users\jgarachico\Desktop\Chico\01_Learning\C#-Training\00_Project\ARS-JLG\ARS-JLG\obj\Debug\net5.0\ARS-JLG.genruntimeconfig.cache
