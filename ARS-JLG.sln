@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ARS-JLG", "ARS-JLG\ARS-JLG.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{5B8E4E7C-6CB0-46EF-B989-3094A99AB1C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidateFlightInformationTest", "ValidateFlightInformationTest\ValidateFlightInformationTest.csproj", "{C53D6D5A-62C2-4DC9-AE6B-94E09480DDCD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARS-JLG-TEST", "ARS-JLG-TEST\ARS-JLG-TEST.csproj", "{C1B0E3DD-E910-4737-91CF-38718BB38E13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,16 +19,16 @@ Global
 		{1704DFA1-F7A3-44A4-89CA-6B5B571FCE17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1704DFA1-F7A3-44A4-89CA-6B5B571FCE17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1704DFA1-F7A3-44A4-89CA-6B5B571FCE17}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C53D6D5A-62C2-4DC9-AE6B-94E09480DDCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C53D6D5A-62C2-4DC9-AE6B-94E09480DDCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C53D6D5A-62C2-4DC9-AE6B-94E09480DDCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C53D6D5A-62C2-4DC9-AE6B-94E09480DDCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1B0E3DD-E910-4737-91CF-38718BB38E13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1B0E3DD-E910-4737-91CF-38718BB38E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1B0E3DD-E910-4737-91CF-38718BB38E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1B0E3DD-E910-4737-91CF-38718BB38E13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{C53D6D5A-62C2-4DC9-AE6B-94E09480DDCD} = {5B8E4E7C-6CB0-46EF-B989-3094A99AB1C0}
+		{C1B0E3DD-E910-4737-91CF-38718BB38E13} = {5B8E4E7C-6CB0-46EF-B989-3094A99AB1C0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5E94FF5A-3341-4C30-A24D-9EB2D1FCD7FB}

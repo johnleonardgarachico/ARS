@@ -15,71 +15,84 @@ namespace ARS_JLG
 
         public void AddFlight()
         {
-            var isCreated = false;
             var CreateFlight = new CreationFlight();
+            bool isFlightExists;
+            bool isValid;
 
-            isCreated = CreateFlight.CreateFlight();
+            isFlightExists = CreateFlight.GetInitialInformation();
 
-            if (isCreated)
+            if (!isFlightExists)
             {
-                Console.WriteLine("Flight Successfully Added!");
+                CreateFlight.GetFinalInformation();
+                isValid = CreateFlight.CreateFlight();
+
+                if (isValid)
+                {
+                    Console.WriteLine("Flight Successfully Added!");
+                }
+                else
+                {
+                    Console.WriteLine("Invalid Flight Information!");
+                }
             }
             else
             {
-                Console.WriteLine("Flight is ALready Existing!");
+                Console.WriteLine("Flight is Already Existing!");
             }
         }
 
         public void SearchFlight(int searchMethod)
         {
             var constantCollection = new Constants();
-            var validateFlightInformation = new ValidateFlightInformation();
-            var flightCollection = new RepositoryFlightCollection();
-            var listOfFlights = new List<IFlights>();
+            var constMessage = new ConstantMessage();
+            var getInput = new GetUserInput();
+            var searchFlight = new SearchFlight();
+            var displayInterface = new GetUserOutput();
+            var listOfFlights = new List<IFlightInformation>();
+            var hasFlight = false;
 
             if (searchMethod == constantCollection.SEARCH_FLIGHT_BY_AIRLINE_CODE)
             {
-                listOfFlights = flightCollection.SearchFlight(validateFlightInformation.GetAirlineCode());
+                hasFlight = searchFlight.TrySearchForFlight(getInput.AskStringToUpper(constMessage.ASK_AIRLINE_CODE), out listOfFlights);
             }
             else if (searchMethod == constantCollection.SEARCH_FLIGHT_BY_FLIGHT_NUMBER)
             {
-                listOfFlights = flightCollection.SearchFlight(validateFlightInformation.GetFlightNumber());
+                hasFlight = searchFlight.TrySearchForFlight(getInput.AskNumber(constMessage.ASK_FLIGHT_NUMBER), out listOfFlights);
             }
             else if (searchMethod == constantCollection.SEARCH_FLIGHT_BY_STATION)
             {
-                listOfFlights = flightCollection.SearchFlight(validateFlightInformation.GetStation("Arrival Station"), 
-                    validateFlightInformation.GetStation("Departure Station"));
+                hasFlight = searchFlight.TrySearchForFlight(getInput.AskStringToUpper(constMessage.ASK_ARRIVAL_STATION), 
+                    getInput.AskStringToUpper(constMessage.ASK_DEPARTURE_STATION), out listOfFlights);
             }
             else
             {
-                //Invalid search method
+                Console.WriteLine("Invalid Search Method!");
             }
-            PrintFlights(listOfFlights);
+
+            if (hasFlight)
+            {
+                displayInterface.DisplayFlights(listOfFlights);
+            }
+            else
+            {
+                Console.WriteLine("No flight existing with the given information!");
+            }
         }
 
         public void DisplayAllFlights()
         {
-            var flightCollection = new RepositoryFlightCollection();
-            var listOfFlights = flightCollection.GetAllFlights();
-            PrintFlights(listOfFlights);
-        }
+            var flightCollection = new RepositoryCollection();
+            var displayInterface = new GetUserOutput();
 
-        /// <summary>
-        /// Display given list of flights
-        /// </summary>
-        /// <param name="listOfFlights"></param>
-        public void PrintFlights(List<IFlights> listOfFlights)
-        {
-            Console.WriteLine("{0,25}{1,25}{2,20}{3,15}{4,15}", "Airline Code", "Flight Number", "Station", "STA", "STD");
+            var flightList = flightCollection.GetAllFlights();
 
-            foreach (var flight in listOfFlights)
+            if (flightList.Count != 0)
             {
-                Console.WriteLine("{0,25}{1,25}{2,20}{3,15}{4,15}",
-                    flight.AirlineCode,
-                    flight.FlightNumber,
-                    flight.ArrivalStation + " - " + flight.DepartureStation,
-                    flight.ScheduledTimeArrival.ToString("HH:mm"),
-                    flight.ScheduledTimeDeparture.ToString("HH:mm"));
+                displayInterface.DisplayFlights(flightCollection.GetAllFlights());
+            }
+            else
+            {
+                Console.WriteLine("No flight is existing in the record!");
             }
         }
     }

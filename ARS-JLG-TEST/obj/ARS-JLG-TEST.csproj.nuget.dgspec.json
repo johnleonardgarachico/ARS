@@ -1,0 +1,142 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\jgarachico\\Desktop\\Chico\\01_Learning\\C#-Training\\00_Project\\ARS-JLG\\ARS-JLG-TEST\\ARS-JLG-TEST.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\jgarachico\\Desktop\\Chico\\01_Learning\\C#-Training\\00_Project\\ARS-JLG\\ARS-JLG-TEST\\ARS-JLG-TEST.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jgarachico\\Desktop\\Chico\\01_Learning\\C#-Training\\00_Project\\ARS-JLG\\ARS-JLG-TEST\\ARS-JLG-TEST.csproj",
+        "projectName": "ARS-JLG-TEST",
+        "projectPath": "C:\\Users\\jgarachico\\Desktop\\Chico\\01_Learning\\C#-Training\\00_Project\\ARS-JLG\\ARS-JLG-TEST\\ARS-JLG-TEST.csproj",
+        "packagesPath": "C:\\Users\\jgarachico\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jgarachico\\Desktop\\Chico\\01_Learning\\C#-Training\\00_Project\\ARS-JLG\\ARS-JLG-TEST\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jgarachico\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\jgarachico\\Desktop\\Chico\\01_Learning\\C#-Training\\00_Project\\ARS-JLG\\ARS-JLG\\ARS-JLG.csproj": {
+                "projectPath": "C:\\Users\\jgarachico\\Desktop\\Chico\\01_Learning\\C#-Training\\00_Project\\ARS-JLG\\ARS-JLG\\ARS-JLG.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jgarachico\\Desktop\\Chico\\01_Learning\\C#-Training\\00_Project\\ARS-JLG\\ARS-JLG\\ARS-JLG.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jgarachico\\Desktop\\Chico\\01_Learning\\C#-Training\\00_Project\\ARS-JLG\\ARS-JLG\\ARS-JLG.csproj",
+        "projectName": "ARS-JLG",
+        "projectPath": "C:\\Users\\jgarachico\\Desktop\\Chico\\01_Learning\\C#-Training\\00_Project\\ARS-JLG\\ARS-JLG\\ARS-JLG.csproj",
+        "packagesPath": "C:\\Users\\jgarachico\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jgarachico\\Desktop\\Chico\\01_Learning\\C#-Training\\00_Project\\ARS-JLG\\ARS-JLG\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jgarachico\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

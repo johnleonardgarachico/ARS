@@ -235,29 +235,28 @@ namespace ARS_JLG
 
         private void CreateReservationSelected()
         {
-            var reservation = new Reservations();
+            var reservation = new ReservationMaintenance();
             reservation.CreateReservation();
-            Console.WriteLine("Reservation Successfully Added!");
             chooseWhatToDo = constantCollection.MAIN_INTERFACE;
         }
 
         private void DisplayAllReservationsSelected()
         {
-            var reservation = new Reservations();
+            var reservation = new ReservationMaintenance();
             reservation.DisplayAllReservations();
             chooseWhatToDo = constantCollection.MAIN_INTERFACE;
         }
 
         private void SearchReservationByPNR()
         {
-            var reservation = new Reservations();
+            var reservation = new ReservationMaintenance();
             reservation.SearchReservation();
             chooseWhatToDo = constantCollection.MAIN_INTERFACE;
         }
 
         private void InvalidInput(string message)
         {
-            Console.WriteLine($" Error: ");
+            Console.WriteLine($" Error: Invalid Input!");
             Console.WriteLine(" Press any key to continue.");
             Console.ReadLine();
             Console.Clear();
